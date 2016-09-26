@@ -5,6 +5,7 @@
         "$route",
         function ($scope, $location, $route) {
             $scope.$oute = $route;
+            
 
             $scope.news = []; // data
 

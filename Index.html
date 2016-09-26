@@ -8,8 +8,8 @@
 	<base href="/" />
 </head>
 <body ng-controller="MainController" class="container-fluid">
-
-	<main ng-view>
+    <header ng-include="'Views/Partials/Navbar.html'"></header>
+	<main class="container-fluid" ng-view>
 
 	</main>
 	<!--3rd party libs and frameworks-->
@@ -29,6 +29,9 @@
 	<!--Controllers-->
 	<script src="Scripts/Controllers/main.controller.js"></script>
 	<script src="Scripts/Controllers/home.controller.js"></script>
+    <script src="Scripts/Controllers/about.controller.js"></script>
+    <script src="Scripts/Controllers/news.controller.js"></script>
+    <script src="Scripts/Controllers/newsdetail.controller.js"></script>
 	
 </body>
 </html>
