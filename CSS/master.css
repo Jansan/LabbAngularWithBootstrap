@@ -43,7 +43,9 @@
  .jumbotron p {
      color:#ffffff;
  }
- 
+ .btn-danger{
+     margin:10px;
+ }
 
 /*Footer Style*/
 .social:hover {
