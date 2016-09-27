@@ -1,1 +1,20 @@
-﻿<h1 ng-bind="title"></h1>
+﻿<div class="col-md-12">
+    <div class="col-md-12">
+        <h1 ng-bind="title"></h1>
+
+
+        <button type="button"
+                class="btn btn-success"
+                data-toggle="modal"
+                data-target="#newNewsModal">
+            Add News
+        </button>
+    </div>
+    <div class="col-md-4" ng-repeat="article in news track by $index">
+        <h1 ng-bind="article.heading"></h1>
+        <p ng-bind="article.content"></p>
+        <button class="btn btn-danger" ng-click="removeNews()"><i class="glyphicon glyphicon-trash"></i></button>
+    </div>
+</div>
+
+<div ng-include="'Views/Partials/NewNewsModal.html'"></div>

@@ -9,6 +9,7 @@
 </head>
 <body ng-controller="MainController" class="container-fluid">
     <header ng-include="'Views/Partials/Navbar.html'"></header>
+    
 	<main class="container-fluid" ng-view>
 
 	</main>
@@ -32,6 +33,6 @@
     <script src="Scripts/Controllers/about.controller.js"></script>
     <script src="Scripts/Controllers/news.controller.js"></script>
     <script src="Scripts/Controllers/newsdetail.controller.js"></script>
-	
+    <footer ng-include="'Views/Partials/Footer.html'"></footer>
 </body>
 </html>

@@ -3,5 +3,6 @@
         "$scope",
         function ($scope) {
             $scope.title = "NewsDetails";
+            
         }
 ]);
