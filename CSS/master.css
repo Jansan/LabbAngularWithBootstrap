@@ -28,6 +28,22 @@
  .navbar-inverse .navbar-nav > li > a{
      color:#c8ea15;
  }
+ .article{
+     background-color:#92ae89;
+    margin-top:20px;
+    
+     
+ }
+
+ .jumbotron  {
+    background-color:#778f80;
+   
+    
+ }
+ .jumbotron p {
+     color:#ffffff;
+ }
+ 
 
 /*Footer Style*/
 .social:hover {

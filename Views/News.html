@@ -11,9 +11,11 @@
         </button>
     </div>
     <div class="col-md-4" ng-repeat="article in news track by $index">
-        <h1 ng-bind="article.heading"></h1>
-        <p ng-bind="article.content"></p>
-        <button class="btn btn-danger" ng-click="removeNews()"><i class="glyphicon glyphicon-trash"></i></button>
+        <div class="col-md-12 article">
+            <h1 ng-bind="article.heading"></h1>
+            <p ng-bind="article.content"></p>
+            <button class="btn btn-danger" ng-click="removeNews($index)"><i class="glyphicon glyphicon-trash"></i></button>
+        </div>
     </div>
 </div>
 
